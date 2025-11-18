@@ -1,0 +1,49 @@
+body {
+  height: 200vh;
+  margin: 0;
+}
+
+.container {
+ 
+  position: relative;
+  border: 2px dashed #333;
+  padding: 1em;
+  height: 500px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.static {
+  background-color: #2ecc71;
+  
+}
+
+.relative {
+  background-color: #3498db;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.absolute {
+  background-color: #9b59b6;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.fixed {
+  background-color: #e74c3c;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
